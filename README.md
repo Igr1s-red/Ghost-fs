@@ -1,5 +1,4 @@
 # casper-fs 👻
-<img align="center" src="https://github.com/CoolerVoid/casper-fs/blob/main/doc/Screenshot_9.png?raw=true">
 Casper-fs is a custom Linux Kernel Module generator to work with resources to protect or hide a custom list of files.
 Each LKM has resources to protect or hide files following a custom list in the YAML rule file. Yes, not even the root has permission to see the files or make actions like edit and remove. The files only can be caught, edited, and deleted if the user sends a proper key to the custom device to liberate the action in the file system. 
 
@@ -141,7 +140,6 @@ casperfs
 ```
 
 # Random notes
---
 
 Tested on ubuntu 16 and fedora 29 at kernels "3.x","4.x" and "5.x".
 
@@ -155,7 +153,6 @@ This tool aims to use in the hardening system context. Pay attention if you have
 
 
 # References
---
 
 *Wikipedia Netfilter* 
 https://en.wikipedia.org/wiki/Netfilter
